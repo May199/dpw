@@ -1,0 +1,21 @@
+{
+  "name": "dpw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/May199/dpw.git",
+  "author": "Emanuelle Neves <43800901+May199@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

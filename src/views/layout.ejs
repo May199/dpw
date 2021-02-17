@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <title>Unifor | Universidade de Fortaleza</title>
+    <link rel="icon" type="image/png" href="http://localhost:3000/img/unifor.png"/>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+          <a class="navbar-brand" href="https://www.unifor.br/"><img id="logo" src="img/unifor-logo-horizontal.png"></a>
+          <div class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="navbar-nav">
+
+              <li class="nav-item"><a class="nav-link text-dark" href="#cursos">Cursos</a></li>
+              <li class="nav-item"><a class="nav-link text-dark" href="#matriculas">Matrículas</a></li>
+              <li class="nav-item"><a class="nav-link text-dark" href="#eventos">Eventos</a></li>
+              <li class="nav-item"><a class="nav-link text-dark" href="#telefones">Telefones</a></li>
+              <li class="nav-item"><a class="nav-link text-dark" href="#contato">Contato</a></li>
+
+            </ul>
+          </div>
+        </nav>
+
+        <main>
+            <div class="container-fluid">
+                <%- body %>
+            </div>
+        </main>
+    </div>
+    <div id="rodape" class="bg-custom text-dark">
+        <p>Endereço: Av. Washington Soares, 1321 - Edson Queiroz<br> CEP 60811-905 - Fortaleza-CE - Brasil</p>
+    </div>
+</body>
+</html>

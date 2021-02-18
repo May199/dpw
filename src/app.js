@@ -13,5 +13,8 @@ app.use(express.json());
 app.get('/', (req, res) =>{
     res.render('pages/home');
 });
+app.get('/telefone', (req, res) =>{
+    res.render('pages/telefone');
+});
 
 app.listen(process.env.PORT || 3000);
